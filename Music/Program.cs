@@ -44,6 +44,22 @@ class Program
         foreach (var item in _greatMusicBands)
         {
             Console.WriteLine(item);
+            if (item.Members.Count > 0)
+            {
+                Console.WriteLine($"  - First member is {item.Members[0].FirstName} {item.Members[0].LastName}");
+            }
+            else
+            {
+                Console.WriteLine("   - No Members in the group");
+            }
+            if (item.Albums.Count > 0)
+            {
+                Console.WriteLine($"  - First Album is {item.Albums[0].Name} released {item.Albums[0].ReleaseYear}");
+            }
+            else
+            {
+                Console.WriteLine("  - No Albums released by the group");
+            }
         }
     }
 }
@@ -52,8 +68,9 @@ class Program
 1. Implement IMusicGroup in a class csMusicGroup
 2. Implement IArtist in a class csArtist
 3. Implement IArtist in a class csArtist
-4. Seed a list of 5 MusicGroups, 20 Artists, 20 Albums
+4. Seed a list of 2 MusicGroups, 2 Artists, 2 Albums
 
-5. 
+5. Seed 5 MusicGroups with 1 - 5 Members and 2 - 5 Albums
+6. Refractor so the seeding of Members and Albums is made by Seed() in the MusicGroup
  */
 
