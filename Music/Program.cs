@@ -10,7 +10,7 @@ class Program
         var _greatMusicArtists = new List<IArtist>();
         var _greatMusicAlbums = new List<IAlbum>();
 
-        #region Seed a list of 5 MusicGroups, 20 Artists, 20 Albums
+        #region Seed a list of 2 MusicGroups, 2 Artists, 2 Albums
         #endregion
 
         PresentMusicBands(_greatMusicBands);
@@ -67,7 +67,7 @@ class Program
 /* Exercises
 1. Implement IMusicGroup in a class csMusicGroup
 2. Implement IArtist in a class csArtist
-3. Implement IArtist in a class csArtist
+3. Implement IAlbum in a class csAlbum
 4. Seed a list of 2 MusicGroups, 2 Artists, 2 Albums
 
 5. Seed 5 MusicGroups with 1 - 5 Members and 2 - 5 Albums
