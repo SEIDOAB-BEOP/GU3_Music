@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Helpers;
+using Seido.Utilities.SeedGenerator;
 
 namespace Music
 {
@@ -29,6 +29,17 @@ namespace Music
         /// </summary>
         /// <returns></returns>
         public string ToString();
+    }
+
+    public class csArtist : IArtist
+    {
+        public string FirstName { get ; set; }
+        public string LastName { get; set ; }
+
+        public IArtist Seed(csSeedGenerator rnd)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

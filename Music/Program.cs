@@ -1,4 +1,4 @@
-﻿using Helpers;
+﻿using Seido.Utilities.SeedGenerator;
 namespace Music;
 class Program
 {

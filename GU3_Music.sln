@@ -5,7 +5,7 @@ VisualStudioVersion = 25.0.1706.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Music", "Music\Music.csproj", "{C88AAC4D-8E81-404E-A5D0-68D07FD4D7B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{558ACB03-8B9E-4DC6-9082-1C0E18DDE210}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seedGenerator", "seedGenerator\seedGenerator.csproj", "{558ACB03-8B9E-4DC6-9082-1C0E18DDE210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

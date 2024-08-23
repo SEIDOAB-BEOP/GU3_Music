@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Helpers;
+using Seido.Utilities.SeedGenerator;
 
 namespace Music
 {
